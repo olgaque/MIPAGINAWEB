@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPTI - Arquitectura de Plataformas y Servicios de TI</title>
+
+    <link rel="stylesheet" href="APSTI.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <header>
+
+        <div class="header-top">
+
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo ASPTI">
+            </div>
+
+            <div class="titulo">
+                <h1>
+                    ARQUITECTURA DE PLATAFORMAS Y SERVICIOS DE TECNOLOGÍA DE LA INFORMACIÓN
+                </h1>
+            </div>
+
+            <div class="header-acciones" id="accionesHeader">
+                <button onclick="abrirLogin()" class="btn-iniciar-sesion" type="button" aria-label="Iniciar sesión">
+                    <i class="fa-solid fa-sign-in-alt"></i> Iniciar sesión
+                </button>
+            </div>
+
+        </div>
+
+        <nav class="menu">
+
+            <ul>
+
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#unidades">Unidades Didácticas</a></li>
+                <li><a href="#modulos">Módulos</a></li>
+                <li><a href="#malla">Malla Curricular</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#docentes">Docentes</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="javascript:void(0);" onclick="abrirTramites()" role="button" id="menu-tramites">Mesa de Partes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+    <section id="inicio" class="banner">
+
+        <div class="hero-carrusel" aria-hidden="true">
+            <div class="hero-slide hero-slide-1"></div>
+            <div class="hero-slide hero-slide-2"></div>
+            <div class="hero-slide hero-slide-3"></div>
+        </div>
+
+        <div class="overlay">
+
+            <h2 class="bienvenida"><span class="texto-escritura">APSTI</span>
+            
+            </h2>
+
+            <p>
+                Preparando especialistas en Arquitectura de Plataformas y Servicios de Tecnología de la Información para impulsar la
+                transformación digital.
+            </p>
+
+            <a href="#nosotros" class="btn">
+                Conocer Más
+            </a>
+
+        </div>
+
+    </section>
+
+    
+
+    <section id="nosotros">
+
+        <h2>Sobre Nosotros</h2>
+
+        <div class="contenedor">
+
+            <div class="texto">
+
+                <h3>Nuestra Historia</h3>
+
+                <p>
+                    La carrera profesional de Arquitectura de Plataformas y Servicios de Tecnología
+                    de la Información forma especialistas capaces de diseñar, implementar y administrar
+                    infraestructuras tecnológicas modernas.
+                </p>
+
+                <h3>Misión</h3>
+
+                <p>
+                    Brindar una educación tecnológica de calidad, formando profesionales
+                    competitivos, innovadores y comprometidos con el desarrollo del país.
+                </p>
+
+                <h3>Visión</h3>
+
+                <p>
+                    Ser una carrera líder en formación tecnológica, reconocida por su excelencia
+                    académica e innovación.
+                </p>
+
+            </div>
+
+            <div class="imagen">
+
+                <img src="img/todos.jpeg" alt="Sobre Nosotros">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <section id="unidades">
+
+        <h2>Unidades Didácticas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-network-wired"></i>
+
+                <h3>Redes</h3>
+
+                <p>Diseño e implementación de redes LAN y WAN.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-server"></i>
+
+                <h3>Servidores</h3>
+
+                <p>Administración de Windows Server y Linux.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>Bases de Datos</h3>
+
+                <p>Modelado y administración de bases de datos.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-cloud"></i>
+
+                <h3>Cloud Computing</h3>
+
+                <p>Servicios en la nube y virtualización.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="modulos">
+        <h2>Módulos</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Módulo I</h3>
+                <p>Gestión del soporte de arquitecturas y servicios de Tecnología de información</p>
+                <div class="modulo-carrusel">
+                    <div class="modulo-track">
+                        <div class="modulo-slide" style="--delay:0s; --duration:12s; --animation-name:modulo1Fade">
+                            <img src="img/modulo1/WhatsApp Image 2026-07-05 at 8.40.04 PM (1).jpeg" alt="Módulo I - imagen 1">
+                        </div>
+                        <div class="modulo-slide" style="--delay:4s; --duration:12s; --animation-name:modulo1Fade">
+                            <img src="img/modulo1/WhatsApp Image 2026-07-05 at 8.40.04 PM (2).jpeg" alt="Módulo I - imagen 2">
+                        </div>
+                        <div class="modulo-slide" style="--delay:8s; --duration:12s; --animation-name:modulo1Fade">
+                            <img src="img/modulo1/WhatsApp Image 2026-07-05 at 8.40.04 PM (3).jpeg" alt="Módulo I - imagen 3">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Módulo II</h3>
+
+                <p>Diseño e implementación de arquitecturas y servicios de Tecnología de información</p>
+
+                <div class="modulo-carrusel">
+                    <div class="modulo-track">
+                        <div class="modulo-slide" style="--delay:0s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-01.jpeg" alt="Módulo II - imagen 1">
+                        </div>
+                        <div class="modulo-slide" style="--delay:3s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-02.jpeg" alt="Módulo II - imagen 2">
+                        </div>
+                        <div class="modulo-slide" style="--delay:6s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-03.jpeg" alt="Módulo II - imagen 3">
+                        </div>
+                        <div class="modulo-slide" style="--delay:9s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-04.jpeg" alt="Módulo II - imagen 4">
+                        </div>
+                        <div class="modulo-slide" style="--delay:12s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-05.jpeg" alt="Módulo II - imagen 5">
+                        </div>
+                        <div class="modulo-slide" style="--delay:15s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-06.jpeg" alt="Módulo II - imagen 6">
+                        </div>
+                        <div class="modulo-slide" style="--delay:18s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-07.jpeg" alt="Módulo II - imagen 7">
+                        </div>
+                        <div class="modulo-slide" style="--delay:21s; --duration:24s; --animation-name:modulo2Fade">
+                            <img src="img/modulo2/modulo2-08.jpeg" alt="Módulo II - imagen 8">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Módulo III</h3>
+
+                <p>Diseño de infraestructura y plataforma de servicio de Tecnología de información</p>
+
+                <div class="modulo-carrusel">
+                    <div class="modulo-track">
+                        <div class="modulo-slide" style="--delay:0s; --duration:8s; --animation-name:modulo3Fade">
+                            <img src="img/modulo3/modulo3-01.jpeg" alt="Módulo III - imagen 1">
+                        </div>
+                        <div class="modulo-slide" style="--delay:4s; --duration:8s; --animation-name:modulo3Fade">
+                            <img src="img/modulo3/modulo3-02.jpeg" alt="Módulo III - imagen 2">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="malla">
+        <h2>Malla Curricular</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>I Semestre</h3>
+                <ul>
+                    <li>Fundamentos de Programación</li>
+                    <li>Matemática Aplicada a TI</li>
+                    <li>Introducción a Redes</li>
+                    <li>Ofimática Avanzada</li>
+                    <li>Inglés Técnico I</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>II Semestre</h3>
+
+                <ul>
+                    <li>Sistemas Operativos</li>
+                    <li>Redes de Datos I</li>
+                    <li>Base de Datos I</li>
+                    <li>Arquitectura de Computadoras</li>
+                    <li>Inglés Técnico II</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>III Semestre</h3>
+                <ul>
+                    <li>Redes de Datos II</li>
+                    <li>Administración de Servidores</li>
+                    <li>Base de Datos II</li>
+                    <li>Programación Web</li>
+                    <li>Inglés Técnico III</li>
+                </ul>
+
+            </div>
+            <div class="card">
+
+                <h3>IV Semestre</h3>
+
+                <ul>
+                    <li>Cloud Computing</li>
+                    <li>Virtualización de Sistemas</li>
+                    <li>Seguridad Informática I</li>
+                    <li>Soporte Técnico Avanzado</li>
+                    <li>Gestión de Proyectos TI</li>
+                </ul>
+            </div>
+            <div class="card">
+
+                <h3>V Semestre</h3>
+
+                <ul>
+                    <li>Ciberseguridad</li>
+                    <li>DevOps y Automatización</li>
+                    <li>Administración de Data Centers</li>
+                    <li>Ética Profesional</li>
+                    <li>Innovación Tecnológica</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>VI Semestre</h3>
+
+                <ul>
+                    <li>Prácticas Pre-Profesionales</li>
+                    <li>Proyecto de Investigación Aplicada</li>
+                    <li>Certificaciones Internacionales</li>
+                    <li>Emprendimiento Tecnológico</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="beneficios">
+        <h2>Beneficios de Estudiar la Carrera</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Alta Empleabilidad</h3>
+                <p>El sector de Tecnología de la Información es uno de los de mayor demanda laboral del país.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>Prácticas en Empresas Aliadas</h3>
+                <p>Convenios con empresas del sector tecnológico para realizar prácticas pre-profesionales.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Certificaciones Incluidas</h3>
+                <p>Obtén certificaciones reconocidas durante tu formación académica.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Docentes Especializados</h3>
+                <p>Aprende con profesionales con experiencia real en la industria tecnológica.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Laboratorios Equipados</h3>
+                <p>Practica en laboratorios con equipos y tecnología actualizada.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Alcance Internacional</h3>
+                <p>Prepárate para oportunidades laborales remotas o en el extranjero.</p>
+            </div>
+        </div>
+    </section>
+    <section id="docentes">
+        <h2>Docentes</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/docente1.jpeg" alt="Docente 1">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Redes</p>
+            </div>
+            <div class="card">
+                <img src="img/docente2.jpg" alt="Docente 2">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Bases de Datos</p>
+            </div>
+            <div class="card">
+                <img src="img/docente4.jpeg" alt="Docente 3">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Cloud Computing</p>
+            </div>
+            <div class="card">
+                <img src="img/docente5.jpeg" alt="Docente 4">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Seguridad Informática</p>
+            </div>
+            <div class="card">
+                <img src="img/docente6.jpeg" alt="Docente 6">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Servidores y Virtualización</p>
+            </div>
+            <div class="card">
+                <img src="img/docente7.jpeg" alt="Docente 8">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Programación</p>
+            </div>
+            <div class="card">
+                <img src="img/docente8.jpg" alt="Docente 9">
+                <h3>Nombre Docente</h3>
+                <p>Especialista en Ciberseguridad</p>
+            </div>
+        </div>
+    </section>
+    <section id="galeria">
+
+        <h2>Galería</h2>
+
+        <div class="galeria-carrusel" aria-hidden="true">
+
+            <div class="galeria-track">
+
+                <div class="galeria-slide" style="--delay:0s">
+                    <img src="img/imggaleria/galeria-01.jpeg" alt="Galería ASPTI - foto 1">
+                </div>
+                <div class="galeria-slide" style="--delay:-2.5s">
+                    <img src="img/imggaleria/galeria-02.jpeg" alt="Galería ASPTI - foto 2">
+                </div>
+                <div class="galeria-slide" style="--delay:-5s">
+                    <img src="img/imggaleria/galeria-03.jpeg" alt="Galería ASPTI - foto 3">
+                </div>
+                <div class="galeria-slide" style="--delay:-7.5s">
+                    <img src="img/imggaleria/galeria-04.jpeg" alt="Galería ASPTI - foto 4">
+                </div>
+                <div class="galeria-slide" style="--delay:-10s">
+                    <img src="img/imggaleria/galeria-05.jpeg" alt="Galería ASPTI - foto 5">
+                </div>
+                <div class="galeria-slide" style="--delay:-12.5s">
+                    <img src="img/imggaleria/galeria-06.jpeg" alt="Galería ASPTI - foto 6">
+                </div>
+                <div class="galeria-slide" style="--delay:-15s">
+                    <img src="img/imggaleria/galeria-07.jpeg" alt="Galería ASPTI - foto 7">
+                </div>
+                <div class="galeria-slide" style="--delay:-17.5s">
+                    <img src="img/imggaleria/galeria-08.jpeg" alt="Galería ASPTI - foto 8">
+                </div>
+                <div class="galeria-slide" style="--delay:-20s">
+                    <img src="img/imggaleria/galeria-09.jpeg" alt="Galería ASPTI - foto 9">
+                </div>
+                <div class="galeria-slide" style="--delay:-22.5s">
+                    <img src="img/imggaleria/galeria-10.jpeg" alt="Galería ASPTI - foto 10">
+                </div>
+                <div class="galeria-slide" style="--delay:-25s">
+                    <img src="img/imggaleria/galeria-11.jpeg" alt="Galería ASPTI - foto 11">
+                </div>
+                <div class="galeria-slide" style="--delay:-27.5s">
+                    <img src="img/imggaleria/galeria-12.jpeg" alt="Galería ASPTI - foto 12">
+                </div>
+                <div class="galeria-slide" style="--delay:-30s">
+                    <img src="img/imggaleria/galeria-13.jpeg" alt="Galería ASPTI - foto 13">
+                </div>
+                <div class="galeria-slide" style="--delay:-32.5s">
+                    <img src="img/imggaleria/galeria-14.jpeg" alt="Galería ASPTI - foto 14">
+                </div>
+                <div class="galeria-slide" style="--delay:-35s">
+                    <img src="img/imggaleria/galeria-15.jpeg" alt="Galería ASPTI - foto 15">
+                </div>
+                <div class="galeria-slide" style="--delay:-37.5s">
+                    <img src="img/imggaleria/galeria-16.jpeg" alt="Galería ASPTI - foto 16">
+                </div>
+                <div class="galeria-slide" style="--delay:-40s">
+                    <img src="img/imggaleria/galeria-17.jpeg" alt="Galería ASPTI - foto 17">
+                </div>
+                <div class="galeria-slide" style="--delay:-42.5s">
+                    <img src="img/imggaleria/galeria-18.jpeg" alt="Galería ASPTI - foto 18">
+                </div>
+                <div class="galeria-slide" style="--delay:-45s">
+                    <img src="img/imggaleria/galeria-19.jpeg" alt="Galería ASPTI - foto 19">
+                </div>
+                <div class="galeria-slide" style="--delay:-47.5s">
+                    <img src="img/imggaleria/galeria-20.jpeg" alt="Galería ASPTI - foto 20">
+                </div>
+                <div class="galeria-slide" style="--delay:-50s">
+                    <img src="img/imggaleria/galeria-21.jpeg" alt="Galería ASPTI - foto 21">
+                </div>
+                <div class="galeria-slide" style="--delay:-52.5s">
+                    <img src="img/imggaleria/galeria-22.jpeg" alt="Galería ASPTI - foto 22">
+                </div>
+                <div class="galeria-slide" style="--delay:-55s">
+                    <img src="img/imggaleria/galeria-23.jpeg" alt="Galería ASPTI - foto 23">
+                </div>
+                <div class="galeria-slide" style="--delay:-57.5s">
+                    <img src="img/imggaleria/galeria-24.jpeg" alt="Galería ASPTI - foto 24">
+                </div>
+                <div class="galeria-slide" style="--delay:-60s">
+                    <img src="img/imggaleria/galeria-25.jpeg" alt="Galería ASPTI - foto 25">
+                </div>
+                <div class="galeria-slide" style="--delay:-62.5s">
+                    <img src="img/imggaleria/galeria-26.jpeg" alt="Galería ASPTI - foto 26">
+                </div>
+                <div class="galeria-slide" style="--delay:-65s">
+                    <img src="img/imggaleria/galeria-27.jpeg" alt="Galería ASPTI - foto 27">
+                </div>
+                <div class="galeria-slide" style="--delay:-67.5s">
+                    <img src="img/imggaleria/galeria-28.jpeg" alt="Galería ASPTI - foto 28">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div id="tramitesModal" class="tramites-modal" role="dialog" aria-modal="true" aria-labelledby="tramitesTitle">
+        <div class="tramites-panel">
+            <button class="cerrar" onclick="cerrarTramites()" type="button" aria-label="Cerrar mesa de partes">&times;</button>
+
+            <div class="tramites-header">
+                <div>
+                    <p class="tramites-etiqueta">Trámite documentario</p>
+                    <h3 id="tramitesTitle">Mesa de Partes</h3>
+                </div>
+            </div>
+
+            <!-- Pestañas (Tabs) -->
+            <div class="tramites-tabs" style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--color-border); padding-bottom: 10px;">
+                <button type="button" class="tab-btn active" onclick="cambiarTabTramite('registrar')" id="tabBtnRegistrar" style="background: none; border: none; font-family: inherit; font-size: 1rem; font-weight: 600; padding: 6px 12px; cursor: pointer; color: var(--color-brand); border-bottom: 2px solid var(--color-brand); outline: none;">Registrar Trámite</button>
+                <button type="button" class="tab-btn" onclick="cambiarTabTramite('consultar')" id="tabBtnConsultar" style="background: none; border: none; font-family: inherit; font-size: 1rem; font-weight: 500; padding: 6px 12px; cursor: pointer; color: var(--color-body); border-bottom: 2px solid transparent; outline: none;">Consultar Estado</button>
+            </div>
+
+            <!-- Contenido Registrar -->
+            <div id="tabContenidoRegistrar">
+                <p class="tramites-intro">Registra tu solicitud (constancias, certificados, traslados y más) y adjunta el documento que la sustente. El personal de Mesa de Partes revisará tu solicitud y se comunicará contigo.</p>
+
+                <form id="form-tramite" enctype="multipart/form-data">
+                    <div id="datosInvitadoTramite">
+                        <p style="font-size: 0.9rem; color: #706967; margin-bottom: 12px;">
+                            ¿Tienes cuenta? 
+                            <a href="javascript:void(0);" onclick="cerrarTramites(); abrirLogin();" style="color: var(--color-brand); font-weight: 600; text-decoration: none;">Inicia sesión</a> 
+                            para no tener que llenar tus datos y ver tu historial.
+                        </p>
+                        <input type="text" name="solicitante" id="solicitanteTramite" placeholder="Nombre completo" required>
+                        <input type="email" name="correo" id="correoTramite" placeholder="Correo electrónico" required>
+                        <input type="tel" name="telefono" id="telefonoTramite" placeholder="Teléfono / Celular (opcional)">
+                    </div>
+
+                    <select name="tipo_tramite" id="tipoTramite" required>
+                        <option value="">Selecciona el tipo de trámite</option>
+                        <option>Constancia de matrícula</option>
+                        <option>Constancia de notas</option>
+                        <option>Certificado de estudios</option>
+                        <option>Duplicado de carné</option>
+                        <option>Traslado interno</option>
+                        <option>Retiro / reserva de matrícula</option>
+                        <option>Solicitud de práctica pre-profesional</option>
+                        <option>Convalidación de cursos</option>
+                        <option>Otro</option>
+                    </select>
+
+                    <textarea name="detalle" id="detalleTramite" placeholder="Cuéntanos más sobre tu solicitud (obligatorio si elegiste &quot;Otro&quot;)"></textarea>
+
+                    <label class="campo-archivo">
+                        Documento adjunto (opcional, máx. 15 MB)
+                        <input type="file" name="documento">
+                    </label>
+
+                    <button type="submit">
+                        Enviar solicitud
+                    </button>
+
+                    <p id="estado-tramite" role="status" style="margin-top: 10px; font-weight: 500; min-height: 20px;"></p>
+                </form>
+            </div>
+
+            <!-- Contenido Consultar -->
+            <div id="tabContenidoConsultar" style="display: none;">
+                <p class="tramites-intro">Consulta el estado actual de tu trámite utilizando el código único recibido y el correo electrónico registrado.</p>
+
+                <form id="form-consulta-tramite">
+                    <input type="text" id="codigoConsulta" name="codigo" placeholder="Código de trámite (ej. MP-2026-0001)" required>
+                    <input type="email" id="correoConsulta" name="correo" placeholder="Correo electrónico" required>
+                    <button type="submit">
+                        Consultar estado
+                    </button>
+                    <p id="estado-consulta" role="status" style="margin-top: 10px; font-weight: 500; min-height: 20px;"></p>
+                </form>
+
+                <div id="resultadoConsultaTramite" style="display: none; margin-top: 20px; padding: 15px; background: #faf7f5; border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+                    <h4 style="color: var(--color-brand-deep); margin-bottom: 12px; font-size: 1rem; border-bottom: 1px solid var(--color-border); padding-bottom: 6px;">Detalles de la Solicitud</h4>
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body); width: 120px;">Código:</td><td id="resCodigo" style="padding: 6px 0; font-family: monospace;"></td></tr>
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Solicitante:</td><td id="resSolicitante" style="padding: 6px 0;"></td></tr>
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Tipo:</td><td id="resTipo" style="padding: 6px 0;"></td></tr>
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Fecha:</td><td id="resFecha" style="padding: 6px 0;"></td></tr>
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Área asignada:</td><td id="resArea" style="padding: 6px 0;"></td></tr>
+                        <tr style="border-bottom: 1px solid #f0eae5;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Estado:</td><td style="padding: 6px 0;"><span id="resEstado" style="display: inline-block;"></span></td></tr>
+                        <tr id="resFilaDocumento" style="border-bottom: none;"><td style="padding: 6px 0; font-weight: 600; color: var(--color-body);">Adjunto:</td><td id="resDocumento" style="padding: 6px 0; font-weight: 500; color: var(--color-brand-deep);"></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <form id="form-contacto">
+
+            <input type="text" name="nombre" placeholder="Nombre" required maxlength="100">
+
+            <input type="email" name="correo" placeholder="Correo" required maxlength="150">
+
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" required maxlength="5000"></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+            <p id="estado-envio" role="status"></p>
+
+        </form>
+    </section>
+
+    <div id="loginModal" class="login-modal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+        <div class="login-box">
+            <span class="cerrar" onclick="cerrarLogin()" aria-label="Cerrar login">&times;</span>
+            <h2 id="loginTitle"><i class="fa-solid fa-user-lock"></i> Iniciar sesión</h2>
+            <p class="login-subtitulo">Ingresa con tu correo y contraseña.</p>
+            <input type="email" id="correoLogin" placeholder="Correo">
+            <input type="password" id="claveLogin" placeholder="Contraseña">
+            <button onclick="validarLogin()">Ingresar</button>
+            <p id="mensajeLogin" class="mensaje-login"></p>
+            <p class="login-alterno">¿No tienes cuenta? <a href="javascript:void(0);" onclick="cerrarLogin(); abrirRegistro();">Regístrate</a></p>
+        </div>
+    </div>
+
+    <div id="registroModal" class="login-modal" role="dialog" aria-modal="true" aria-labelledby="registroTitle">
+        <div class="login-box">
+            <span class="cerrar" onclick="cerrarRegistro()" aria-label="Cerrar registro">&times;</span>
+            <h2 id="registroTitle"><i class="fa-solid fa-user-plus"></i> Crear cuenta</h2>
+            <p class="login-subtitulo">Regístrate para enviar y hacer seguimiento de tus trámites.</p>
+            <input type="text" id="nombreRegistro" placeholder="Nombre completo">
+            <input type="email" id="correoRegistro" placeholder="Correo">
+            <input type="tel" id="telefonoRegistro" placeholder="Teléfono (opcional)">
+            <input type="password" id="claveRegistro" placeholder="Contraseña (mín. 6 caracteres)">
+            <button onclick="validarRegistro()">Crear cuenta</button>
+            <p id="mensajeRegistro" class="mensaje-login"></p>
+            <p class="login-alterno">¿Ya tienes cuenta? <a href="javascript:void(0);" onclick="cerrarRegistro(); abrirLogin();">Inicia sesión</a></p>
+        </div>
+    </div>
+
+    <button class="fab-biblioteca" onclick="abrirBiblioteca()" type="button">
+        <i class="fa-solid fa-book-open"></i>
+        <span>Biblioteca</span>
+    </button>
+
+    <div id="bibliotecaModal" class="biblioteca-modal" role="dialog" aria-modal="true" aria-labelledby="bibliotecaTitle">
+        <div class="biblioteca-panel">
+            <div class="biblioteca-header">
+                <div>
+                    <p class="biblioteca-etiqueta">Recurso digital</p>
+                    <h3 id="bibliotecaTitle">Biblioteca virtual</h3>
+                </div>
+                <button class="biblioteca-cerrar" onclick="cerrarBiblioteca()" type="button" aria-label="Cerrar biblioteca">&times;</button>
+            </div>
+
+            <label class="biblioteca-buscar" for="buscadorBiblioteca">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="buscadorBiblioteca" placeholder="Buscar material...">
+            </label>
+
+            <div id="listaBiblioteca" class="biblioteca-lista"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 ASPTI | Arquitectura de Plataformas y Servicios de TI</p>
+        <div class="redes">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+
+        </div>
+        
+    </footer>
+
+    <a href="#inicio" class="volver-arriba" aria-label="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <script>
+        const formulario = document.getElementById('form-contacto');
+        const estado = document.getElementById('estado-envio');
+
+        if (formulario) {
+            formulario.addEventListener('submit', async (evento) => {
+                evento.preventDefault();
+                estado.textContent = 'Enviando…';
+                try {
+                    const respuesta = await fetch('controlador/mensaje.php?action=guardar', {
+                        method: 'POST',
+                        body: new URLSearchParams(new FormData(formulario)),
+                    });
+                    const cuerpo = await respuesta.json();
+                    if (respuesta.ok) {
+                        estado.textContent = 'Mensaje enviado ✓';
+                        formulario.reset();
+                    } else {
+                        estado.textContent = cuerpo.error ?? 'No se pudo enviar el mensaje.';
+                    }
+                } catch {
+                    estado.textContent = 'Error de conexión con el servidor.';
+                }
+            });
+        }
+
+        const formularioTramite = document.getElementById('form-tramite');
+        const estadoTramite = document.getElementById('estado-tramite');
+        const tipoTramiteSelect = document.getElementById('tipoTramite');
+        const detalleTramite = document.getElementById('detalleTramite');
+
+        if (tipoTramiteSelect && detalleTramite) {
+            tipoTramiteSelect.addEventListener('change', () => {
+                detalleTramite.required = tipoTramiteSelect.value === 'Otro';
+            });
+        }
+
+        if (formularioTramite) {
+            formularioTramite.addEventListener('submit', async (evento) => {
+                evento.preventDefault();
+                estadoTramite.textContent = 'Enviando…';
+                estadoTramite.style.color = '';
+                try {
+                    const respuesta = await fetch('controlador/tramite.php?action=guardar_publico', {
+                        method: 'POST',
+                        body: new FormData(formularioTramite),
+                    });
+                    const cuerpo = await respuesta.json();
+                    if (respuesta.ok) {
+                        estadoTramite.textContent = `Trámite registrado ✓ Tu código es ${cuerpo.codigo}. Guárdalo para hacer seguimiento; el personal se comunicará contigo pronto.`;
+                        estadoTramite.style.color = '#0f766e';
+                        formularioTramite.reset();
+                    } else {
+                        estadoTramite.textContent = cuerpo.error ?? 'No se pudo registrar el trámite.';
+                        estadoTramite.style.color = '#b30000';
+                    }
+                } catch {
+                    estadoTramite.textContent = 'Error de conexión con el servidor.';
+                    estadoTramite.style.color = '#b30000';
+                }
+            });
+        }
+
+        function cambiarTabTramite(tab) {
+            const tabReg = document.getElementById('tabContenidoRegistrar');
+            const tabCon = document.getElementById('tabContenidoConsultar');
+            const btnReg = document.getElementById('tabBtnRegistrar');
+            const btnCon = document.getElementById('tabBtnConsultar');
+
+            if (tab === 'registrar') {
+                if (tabReg) tabReg.style.display = 'block';
+                if (tabCon) tabCon.style.display = 'none';
+                if (btnReg) {
+                    btnReg.style.color = 'var(--color-brand)';
+                    btnReg.style.borderBottomColor = 'var(--color-brand)';
+                    btnReg.style.fontWeight = '600';
+                }
+                if (btnCon) {
+                    btnCon.style.color = 'var(--color-body)';
+                    btnCon.style.borderBottomColor = 'transparent';
+                    btnCon.style.fontWeight = '500';
+                }
+            } else {
+                if (tabReg) tabReg.style.display = 'none';
+                if (tabCon) tabCon.style.display = 'block';
+                if (btnCon) {
+                    btnCon.style.color = 'var(--color-brand)';
+                    btnCon.style.borderBottomColor = 'var(--color-brand)';
+                    btnCon.style.fontWeight = '600';
+                }
+                if (btnReg) {
+                    btnReg.style.color = 'var(--color-body)';
+                    btnReg.style.borderBottomColor = 'transparent';
+                    btnReg.style.fontWeight = '500';
+                }
+            }
+        }
+
+        const formularioConsulta = document.getElementById('form-consulta-tramite');
+        const estadoConsulta = document.getElementById('estado-consulta');
+        const resultadoConsulta = document.getElementById('resultadoConsultaTramite');
+
+        if (formularioConsulta) {
+            formularioConsulta.addEventListener('submit', async (evento) => {
+                evento.preventDefault();
+                estadoConsulta.textContent = 'Buscando…';
+                estadoConsulta.style.color = '';
+                if (resultadoConsulta) resultadoConsulta.style.display = 'none';
+
+                try {
+                    const datos = new URLSearchParams(new FormData(formularioConsulta));
+                    const respuesta = await fetch('controlador/tramite.php?action=consultar', {
+                        method: 'POST',
+                        body: datos
+                    });
+                    const cuerpo = await respuesta.json();
+
+                    if (respuesta.ok && cuerpo.ok) {
+                        estadoConsulta.textContent = '';
+                        if (resultadoConsulta) resultadoConsulta.style.display = 'block';
+                        
+                        document.getElementById('resCodigo').textContent = cuerpo.tramite.codigo;
+                        document.getElementById('resSolicitante').textContent = cuerpo.tramite.solicitante;
+                        document.getElementById('resTipo').textContent = cuerpo.tramite.tipo_tramite;
+                        document.getElementById('resFecha').textContent = cuerpo.tramite.fecha;
+                        document.getElementById('resArea').textContent = cuerpo.tramite.area_destino;
+                        
+                        const badge = document.getElementById('resEstado');
+                        if (badge) {
+                            badge.textContent = cuerpo.tramite.estado_legible;
+                            badge.className = ''; 
+                            badge.style.display = 'inline-block';
+                            badge.style.padding = '4px 10px';
+                            badge.style.borderRadius = '999px';
+                            badge.style.fontSize = '0.8rem';
+                            badge.style.fontWeight = '600';
+
+                            if (cuerpo.tramite.estado === 'pendiente') {
+                                badge.style.background = '#fdecea';
+                                badge.style.color = '#b30000';
+                            } else if (cuerpo.tramite.estado === 'proceso') {
+                                badge.style.background = '#fff4de';
+                                badge.style.color = '#8a5a00';
+                            } else if (cuerpo.tramite.estado === 'atendido') {
+                                badge.style.background = '#e6f4ea';
+                                badge.style.color = '#1e7a34';
+                            } else {
+                                badge.style.background = '#ececec';
+                                badge.style.color = '#5a5350';
+                            }
+                        }
+
+                        const filaDoc = document.getElementById('resFilaDocumento');
+                        const linkDoc = document.getElementById('resDocumento');
+                        if (cuerpo.tramite.documento) {
+                            if (filaDoc) filaDoc.style.display = 'table-row';
+                            if (linkDoc) linkDoc.textContent = '📎 ' + cuerpo.tramite.documento;
+                        } else {
+                            if (filaDoc) filaDoc.style.display = 'none';
+                        }
+                    } else {
+                        estadoConsulta.textContent = cuerpo.error ?? 'No se pudo consultar el trámite.';
+                        estadoConsulta.style.color = '#b30000';
+                    }
+                } catch {
+                    estadoConsulta.textContent = 'Error de conexión con el servidor.';
+                    estadoConsulta.style.color = '#b30000';
+                }
+            });
+        }
+
+        function abrirLogin() {
+            document.getElementById('loginModal').style.display = 'flex';
+            document.getElementById('correoLogin').focus();
+        }
+
+        function cerrarLogin() {
+            document.getElementById('loginModal').style.display = 'none';
+            document.getElementById('mensajeLogin').textContent = '';
+        }
+
+        function abrirRegistro() {
+            document.getElementById('registroModal').style.display = 'flex';
+            document.getElementById('nombreRegistro').focus();
+        }
+
+        function cerrarRegistro() {
+            document.getElementById('registroModal').style.display = 'none';
+            document.getElementById('mensajeRegistro').textContent = '';
+        }
+
+        async function validarLogin() {
+            const correo = document.getElementById('correoLogin').value.trim();
+            const clave = document.getElementById('claveLogin').value.trim();
+            const mensaje = document.getElementById('mensajeLogin');
+
+            mensaje.textContent = 'Verificando…';
+            mensaje.style.color = '';
+
+            try {
+                const respuesta = await fetch('controlador/auth.php?action=login', {
+                    method: 'POST',
+                    body: new URLSearchParams({ correo, clave }),
+                });
+                const cuerpo = await respuesta.json();
+
+                if (respuesta.ok) {
+                    mensaje.textContent = 'Acceso correcto...';
+                    mensaje.style.color = '#0f766e';
+                    if (cuerpo.rol === 'administrador') {
+                        window.location.href = 'vista/dashboard.php';
+                    } else {
+                        cerrarLogin();
+                        await actualizarEstadoSesion();
+                    }
+                } else {
+                    mensaje.textContent = cuerpo.error ?? 'Correo o contraseña incorrectos';
+                    mensaje.style.color = '#b30000';
+                }
+            } catch {
+                mensaje.textContent = 'Error de conexión con el servidor.';
+                mensaje.style.color = '#b30000';
+            }
+        }
+
+        async function validarRegistro() {
+            const nombre = document.getElementById('nombreRegistro').value.trim();
+            const correo = document.getElementById('correoRegistro').value.trim();
+            const telefono = document.getElementById('telefonoRegistro').value.trim();
+            const clave = document.getElementById('claveRegistro').value;
+            const mensaje = document.getElementById('mensajeRegistro');
+
+            mensaje.textContent = 'Creando cuenta…';
+            mensaje.style.color = '';
+
+            try {
+                const respuesta = await fetch('controlador/auth.php?action=registro', {
+                    method: 'POST',
+                    body: new URLSearchParams({ nombre, correo, telefono, clave }),
+                });
+                const cuerpo = await respuesta.json();
+
+                if (respuesta.ok) {
+                    mensaje.textContent = 'Cuenta creada ✓ Ya puedes iniciar sesión.';
+                    mensaje.style.color = '#0f766e';
+                    setTimeout(() => { cerrarRegistro(); abrirLogin(); }, 1200);
+                } else {
+                    mensaje.textContent = cuerpo.error ?? 'No se pudo crear la cuenta.';
+                    mensaje.style.color = '#b30000';
+                }
+            } catch {
+                mensaje.textContent = 'Error de conexión con el servidor.';
+                mensaje.style.color = '#b30000';
+            }
+        }
+
+        async function actualizarEstadoSesion() {
+            const acciones = document.getElementById('accionesHeader');
+            const menuTramites = document.getElementById('menu-tramites');
+            let sesion = { autenticado: false };
+            try {
+                const respuesta = await fetch('controlador/auth.php?action=sesion_actual');
+                sesion = await respuesta.json();
+            } catch {
+                sesion = { autenticado: false };
+            }
+
+            if (sesion.autenticado) {
+                if (sesion.rol === 'cliente') {
+                    if (menuTramites) {
+                        menuTramites.textContent = 'Mis trámites';
+                        menuTramites.href = 'vista/mis_tramites.php';
+                        menuTramites.onclick = null;
+                        menuTramites.removeAttribute('role');
+                    }
+                } else if (sesion.rol === 'administrador') {
+                    if (menuTramites) {
+                        menuTramites.textContent = 'Panel administrativo';
+                        menuTramites.href = 'vista/dashboard.php';
+                        menuTramites.onclick = null;
+                        menuTramites.removeAttribute('role');
+                    }
+                }
+                acciones.innerHTML = `
+                    <span class="saludo-sesion">Hola, ${escaparHtml(sesion.nombre)}</span>
+                    <a href="controlador/auth.php?action=logout" class="btn-iniciar-sesion">Cerrar sesión</a>
+                `;
+            } else {
+                if (menuTramites) {
+                    menuTramites.textContent = 'Mesa de Partes';
+                    menuTramites.href = 'javascript:void(0);';
+                    menuTramites.onclick = function() { abrirTramites(); };
+                    menuTramites.setAttribute('role', 'button');
+                }
+                acciones.innerHTML = `
+                    <button onclick="abrirLogin()" class="btn-iniciar-sesion" type="button" aria-label="Iniciar sesión">
+                        <i class="fa-solid fa-sign-in-alt"></i> Iniciar sesión
+                    </button>
+                `;
+            }
+
+            const datosInvitado = document.getElementById('datosInvitadoTramite');
+            const solicitante = document.getElementById('solicitanteTramite');
+            const correo = document.getElementById('correoTramite');
+            const esCliente = sesion.autenticado && sesion.rol === 'cliente';
+
+            if (datosInvitado) {
+                if (esCliente) {
+                    datosInvitado.style.display = 'none';
+                    if (solicitante) solicitante.required = false;
+                    if (correo) correo.required = false;
+                } else {
+                    datosInvitado.style.display = 'block';
+                    if (solicitante) solicitante.required = true;
+                    if (correo) correo.required = true;
+                }
+            }
+        }
+
+        let recursosBiblioteca = [];
+
+        function escaparHtml(texto) {
+            const mapa = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+            return String(texto ?? '').replace(/[&<>"']/g, (c) => mapa[c]);
+        }
+
+        async function cargarBiblioteca() {
+            const lista = document.getElementById('listaBiblioteca');
+            lista.innerHTML = '<p class="biblioteca-vacia">Cargando material…</p>';
+            try {
+                const respuesta = await fetch('controlador/biblioteca.php?action=listar');
+                recursosBiblioteca = await respuesta.json();
+            } catch {
+                recursosBiblioteca = [];
+                lista.innerHTML = '<p class="biblioteca-vacia">No se pudo cargar la biblioteca. Intenta de nuevo más tarde.</p>';
+                return;
+            }
+            renderizarBiblioteca();
+        }
+
+        function renderizarBiblioteca(filtro = '') {
+            const lista = document.getElementById('listaBiblioteca');
+            const texto = filtro.toLowerCase();
+            const filtrados = recursosBiblioteca.filter((recurso) => {
+                return recurso.titulo.toLowerCase().includes(texto) ||
+                    recurso.categoria.toLowerCase().includes(texto) ||
+                    (recurso.descripcion ?? '').toLowerCase().includes(texto);
+            });
+
+            if (!filtrados.length) {
+                lista.innerHTML = '<p class="biblioteca-vacia">No se encontraron recursos con ese término.</p>';
+                return;
+            }
+
+            lista.innerHTML = filtrados.map((recurso) => `
+                <article class="biblioteca-card">
+                    <div>
+                        <h4>${escaparHtml(recurso.titulo)}</h4>
+                        <p class="biblioteca-categoria">${escaparHtml(recurso.categoria)}</p>
+                    </div>
+                    ${recurso.descripcion ? `<p>${escaparHtml(recurso.descripcion)}</p>` : ''}
+                    <div class="biblioteca-acciones">
+                        <a class="biblioteca-ver" href="${encodeURI(recurso.ver)}" target="_blank" rel="noopener">Ver</a>
+                        <a class="biblioteca-descargar" href="${encodeURI(recurso.descarga)}">Descargar (${escaparHtml(recurso.tamano)})</a>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function abrirBiblioteca() {
+            document.getElementById('bibliotecaModal').style.display = 'flex';
+            document.getElementById('buscadorBiblioteca').focus();
+            cargarBiblioteca();
+        }
+
+        function cerrarBiblioteca() {
+            document.getElementById('bibliotecaModal').style.display = 'none';
+        }
+
+        document.getElementById('buscadorBiblioteca').addEventListener('input', (evento) => {
+            renderizarBiblioteca(evento.target.value);
+        });
+
+        document.getElementById('loginModal').addEventListener('click', (evento) => {
+            if (evento.target.id === 'loginModal') {
+                cerrarLogin();
+            }
+        });
+
+        document.getElementById('registroModal').addEventListener('click', (evento) => {
+            if (evento.target.id === 'registroModal') {
+                cerrarRegistro();
+            }
+        });
+
+        document.getElementById('bibliotecaModal').addEventListener('click', (evento) => {
+            if (evento.target.id === 'bibliotecaModal') {
+                cerrarBiblioteca();
+            }
+        });
+
+        function abrirTramites() {
+            document.getElementById('tramitesModal').style.display = 'flex';
+            const campoActivo = document.getElementById('tipoTramite');
+            if (campoActivo) campoActivo.focus();
+        }
+
+        function cerrarTramites() {
+            document.getElementById('tramitesModal').style.display = 'none';
+        }
+
+        document.getElementById('tramitesModal').addEventListener('click', (evento) => {
+            if (evento.target.id === 'tramitesModal') {
+                cerrarTramites();
+            }
+        });
+
+        actualizarEstadoSesion();
+    </script>
+
+</body>
+
+</html>
